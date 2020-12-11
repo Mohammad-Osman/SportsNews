@@ -3,6 +3,8 @@ body{
   text-align: center;
   display: block;
   position: relative;
+  color: #40514E;
+  font-family: sans-serif, cursive;
 }
 
 hr{
@@ -43,7 +45,6 @@ hr{
 .middle-container{
   background-color: #3fc1c9;
   padding: 0 0 1rem;
-
 }
 
 .bottom-container{
@@ -84,26 +85,23 @@ hr{
 
 .head1{
   margin: 1rem auto 1rem auto;
-  height: 11rem;
   width: 85%;
+  height: 200px;
   background-color: #7eb0e6;
-  position: relative;
 }
 
 .head2{
   margin: 1rem auto 1rem auto;
-  height: 13rem;
   width: 85%;
+  height: 200px;
   background-color: #7eb0e6;
-  position: relative;
 }
 
 .head3{
   margin: 1rem auto 1rem auto;
-  height: 12.2rem;
   width: 85%;
+  height: 200px;
   background-color: #7eb0e6;
-  position: relative;
 }
 
 .hl1{
@@ -111,7 +109,6 @@ hr{
   clear: left;
   margin: 0 auto 0 1.5rem;
   width: 30rem;
-  font-family: sans-serif, cursive;
   line-height: 2;
 }
 
@@ -120,7 +117,6 @@ hr{
   clear: left;
   margin: 0 auto 0 1.5rem;
   width: 30rem;
-  font-family: sans-serif, cursive;
   line-height: 2;
 }
 
@@ -129,7 +125,6 @@ hr{
   clear: left;
   margin: 0 auto 0 1.5rem;
   width: 30rem;
-  font-family: sans-serif, cursive;
   line-height: 2;
 }
 
@@ -137,7 +132,6 @@ hr{
   font-size: 0.9375rem;
   width: 70%;
   text-align: left;
-  font-family: sans-serif, cursive;
   clear: left;
   border-color: cornsilk;
   border-style: solid;
@@ -153,7 +147,6 @@ hr{
   font-size: 0.9375rem;
   width: 70%;
   text-align: left;
-  font-family: sans-serif, cursive;
   clear: left;
   border-color: cornsilk;
   border-style: solid;
@@ -169,7 +162,6 @@ hr{
   font-size: 0.9375rem;
   width: 70%;
   text-align: left;
-  font-family: sans-serif, cursive;
   clear: left;
   border-color: cornsilk;
   border-style: solid;
@@ -186,7 +178,6 @@ hr{
   font-weight: bold;
   margin: 0;
   padding-left: 20px;
-  display: inline-block;
 }
 
 .colortext2{
@@ -235,16 +226,24 @@ hr{
   text-align: left;
 }
 
+.story-head{
+  margin: 0;
+  padding: 0 0 1rem;
+
+
+
+}
+
 .topStories{
   display: inline-block;
-  margin: 0 auto 0 10px;
+  margin: 0 auto 0 1rem;
   width: 20%;
   font-family: 'Goldman', cursive;
 }
 
 .storiesIcon{
   display: inline-block;
-  margin: 0 auto 0 20px;
+  margin: 0 auto 0 3rem;
   width: 2%;
   height: 2%;
 }
@@ -252,7 +251,6 @@ hr{
 .stories-row1{
   position: relative;
   display: block;
-  margin-top: 10px;
   margin-left: 20px;
   width: 100%;
   height: 12rem;
@@ -295,7 +293,6 @@ hr{
   color: #11999E;
   width: 20rem;
   height: 1rem;
-  margin-left: 0.5rem;
   line-height: 1;
   clear: left;
   margin: 0 auto 0 0.5rem;
@@ -307,7 +304,6 @@ hr{
   line-height: 2;
   clear: left;
   margin-left: 0.5rem;
-  font-family: sans-serif;
   font-size: 0.9rem;
 }
 
@@ -317,7 +313,6 @@ hr{
   line-height: 2;
   clear: left;
   margin-left: 0.5rem;
-  font-family: sans-serif;
   font-size: 0.9rem;
 }
 
