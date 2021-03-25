@@ -212,11 +212,13 @@ visibility: hidden;
   .headline1{
     display: none;
   }
-  
+
   .headline1of1{
     display: block;
     padding: 0 10% 1% 10%;
   }
+
+
 
   .headline-div-image{
     padding: 0;
@@ -355,7 +357,7 @@ box-shadow: 1px 1px 5px #ffffff;
   }
 
   @media (max-width: 500px) {
-    
+
     .story-description{
       display: none;
     }
