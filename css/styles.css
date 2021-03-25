@@ -211,6 +211,14 @@ visibility: hidden;
   .headline1{
     display: none;
   }
+  
+  .headline2{
+    padding: 1% 10% 1% 10%;
+  }
+
+  .headline3{
+    padding: 1% 10% 1% 10%;
+  }
 
   .headline1of1{
     display: block;
