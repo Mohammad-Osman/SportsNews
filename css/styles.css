@@ -34,6 +34,7 @@ hr{
 
 .header{
   color: #66BFBF;
+
   font-family: 'Big Shoulders Stencil Display', cursive;
   font-style: italic;
   font-size: 3.75rem;  /*  1em = 100% = 16px, 60/16=3.75, rem is rootem, it dosent depend upon parent size. em is the fanatic pronounciation of letter M  */
@@ -74,7 +75,7 @@ hr{
 
 @media (max-width: 990px) {
 .nav{
-  font-size: 1rem;
+  font-size: "auto";
 }
 
 .nav-item{
@@ -98,7 +99,7 @@ hr{
   margin-top: 4rem;
 } */
 
-@media (max-width: 991px) {
+@media (max-width: 990px) {
 .sport1{
 overflow: hidden;
 visibility: hidden;
@@ -136,12 +137,30 @@ visibility: hidden;
   padding: 1% 0%;
 }
 
+.headline1of1{
+  display: none;
+}
+
 .headline2{
   padding: 1% 1% 0 0;
 }
 
 .headline3{
   padding: 1% 0 0 1%;
+}
+
+@media(max-width: 990px){
+  .headline1{
+    padding: 2% 10% 1% 10%;
+  }
+
+  .headline2{
+    padding: 1% 10% 1% 10%;
+  }
+
+  .headline3{
+    padding: 1% 10% 1% 10%;
+  }
 }
 
 .card{
@@ -185,7 +204,69 @@ visibility: hidden;
 
 .headline-image-row{
   width: 100%;
-  padding-bottom: 7%;
+}
+
+@media(max-width: 500px){
+
+  .headline1{
+    display: none;
+  }
+
+  .headline1of1{
+    display: block;
+    padding: 0 10% 1% 10%;
+  }
+
+  .headline-div-image{
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .headline-div-detail{
+    display: none;
+  }
+
+  .headline-row-display{
+    display:flex;
+  flex-direction: column-reverse;
+  }
+
+  .headline-image-row{
+    width: 85%;
+  }
+
+  .headline-Detail{
+    display: none;
+  }
+
+  .smalldisplayimage{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+@media(max-width: 990px){
+  .headline-div-image{
+    padding: 3% 16% 5% 16%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .headline-div-detail{
+    padding: 1% 10%;
+    text-align: center;
+  }
+
+  .headline-row-display{
+    display:flex;
+  flex-direction: column-reverse;
+  }
+
+  .headline-image-row{
+    width: 85%;
+  }
 }
 
 .colortext1{
@@ -234,6 +315,55 @@ box-shadow: 1px 1px 5px #ffffff;
   font-weight: bold;
   font-size: 1rem;
   padding-top: 2%;
+}
+
+@media (max-width: 990px) {
+  .story-image{
+    width: 110%;
+    padding-top: 4%;
+  }
+
+  .story-header{
+    color: #393e46;
+    font-family: "Montserrat";
+    line-height: 1;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .story-image{
+    width: 100%;
+    padding-top: 4%;
+  }
+
+  .story-header{
+    color: #393e46;
+    font-family: "Montserrat";
+    line-height: 1;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .story-description{
+    line-height: 1;
+    font-size: 1rem;
+    padding-top: 2%;
+  }
+
+  @media (max-width: 500px) {
+    
+    .story-description{
+      display: none;
+    }
+  }
+
+  .col-item{
+    margin-left: 1%;
+  }
+
 }
 
 .story-description{
@@ -308,6 +438,28 @@ h3{
   box-shadow: 1px 1px 5px black;
 }
 
+@media (max-width: 990px) {
+  .player-img{
+    width: 20%;
+    border-radius: 50% 50%;
+    border: black 10px double;
+    margin-bottom: 1rem;
+    background-clip: content-box;
+    box-shadow: 1px 1px 5px black;
+  }
+}
+
+@media (max-width: 760px) {
+  .player-img{
+    width: 40%;
+    border-radius: 50% 50%;
+    border: black 10px double;
+    margin-bottom: 1rem;
+    background-clip: content-box;
+    box-shadow: 1px 1px 5px black;
+  }
+}
+
 .pic-title-color{
   color: #2e6299;
 }
@@ -354,6 +506,16 @@ h3{
   text-align: center;
 }
 
+@media (max-width: 990px) {
+  .testimonial-text {
+    padding-top: 3%;
+    line-height: 1.5;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
 .testimonial-img {
   /* border-radius: 50% 50%; */
   margin: 2%;
@@ -369,22 +531,78 @@ h3{
   padding: 3%;
 }
 
-/* HIGHLIGHTS */
+@media (max-width: 990px) {
+  .logo-image {
+    width: 15%;
+    margin: 10px 10px 50px;
+    padding: 2%;
+  }
+}
+
+/* MATCHES */
 
 #matches {
-  padding: 100px;
+  padding: 50px;
     background-color: lightgray;
 }
 
 .section-heading{
   color: #2e6299;
-
 }
 
 .match-col {
   padding: 3% 2%;
   color: #ffffff;
+}
 
+.match-tag {
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+@media (max-width: 990px) {
+  .row-match-col1{
+    padding: 3% 2% 0 10%;
+  }
+
+  .row-match-col2{
+    padding: 3% 10% 0 2%;
+  }
+
+  .col-match-col{
+    padding: 3% 10%;
+    color: #ffffff;
+  }
+}
+
+.card-height{
+  height: 500px;
+
+}
+
+@media (max-width: 760px) {
+  .row-match-col1{
+    padding: 3% 10% 0 10%;
+    width: 80%;
+    margin: 0 10%;
+  }
+
+  .row-match-col2{
+    padding: 3% 10% 0 10%;
+    width: 80%;
+    margin: 0 10%;
+  }
+
+  .col-match-col{
+    padding: 3% 10% 0 10%;
+    width: 80%;
+    margin: 0 10%;
+  }
+
+  .match-tag {
+    font-size: 2rem;
+  }
 }
 
 .card-height{
@@ -415,11 +633,7 @@ h3{
   color: #364f6b;
 }
 
-.match-tag {
-  line-height: 1.5;
-  font-size: 3rem;
-  font-weight: bold;
-}
+
 
 /* CTA */
 
@@ -433,6 +647,13 @@ h3{
   font-weight: bold;
   font-size: 3.5rem;
   line-height: 1.5;
+}
+
+@media (max-width: 990px) {
+  .contact-heading {
+    font-size: 3rem;
+  }
+
 }
 
 .big-heading {
